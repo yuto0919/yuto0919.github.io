@@ -1,3 +1,17 @@
-.title {
-  color: #02ccba;
+.header{
+  height:35px
+  background-color:#00CC33;
+  color:#fff;
+}
+.title{
+  font-size:40px;
+  font-weight: bold;
+}
+.header p{
+  font-size: 23px;
+}
+
+ li{
+  font-size:25px;
+  color:white;
 }
