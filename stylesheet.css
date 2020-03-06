@@ -15,7 +15,7 @@ li {
 }
 
 .header{
-background-color:#007700	;
+background-color:#007700;
 color:#fff;
 height:90px;
 }
@@ -45,9 +45,7 @@ height:90px;
 .copy-container h2{
   font-size:60px;
 }
-.copy-container span{
-  color:#ff4a4a;}
-  
+
 .contents{
   height:500px;
   margin-top:100px;
@@ -73,37 +71,4 @@ height:90px;
 .contact-form{
   padding-top:100px;
 }
-
-input,textarea{
-width:400px;
-padding:20px;
-margin-top:10px;
-margin-bottom:30px;
-font-size:18px;
-border:1px solid #dee7ec;
-}
-
-.contact-submit{
-  background-color:#dee7ec;
-  color:#889eab;
-}
-
-.footer{
-  height:120px;
-  padding:40px;
-  background-color:#2f5167;
-  color:#fff;
-}
-.footer-logo{
-  font-size:32px;
-  float:left;
-}
-.footer-list {
-  float:right;
-}
-
-.footer-list li{
-  padding-bottom:20px;
-}
-  
 
