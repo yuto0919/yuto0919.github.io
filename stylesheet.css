@@ -40,10 +40,14 @@ height:90px;
 }
 
 .copy-container h1{
-  font-size:140px;
+  font-size:96px;
 }
 .copy-container h2{
-  font-size:60px;
+  font-size:40px;
+}
+
+.copy-container h3{
+  font-size:30px;
 }
 
 .contents{
