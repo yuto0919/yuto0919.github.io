@@ -3,11 +3,11 @@ header{
 　width:1170px;
   background-color:#00CC66;
 }
-.title{
+.header-logo{
   font-size:40px;
   font-weight: bold;
 }
-.header p{
+.header-logo p{
   font-size: 23px;
 }
 
