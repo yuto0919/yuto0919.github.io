@@ -14,9 +14,8 @@ li {
   list-style: none;
 }
 
-/* ここからCSSを記述してください */
 .header{
-background-color:#26d0c9;
+background-color:#00FF33;
 color:#fff;
 height:90px;
 }
@@ -28,11 +27,11 @@ height:90px;
 }
 
 .header-list{
-  float:left;
+  float:right;
 }
 
 .header-list li{
-  float:left;
+  float:right;
   padding:33px 20px;
 }
 
