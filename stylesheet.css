@@ -27,7 +27,7 @@ height:90px;
 }
 
 .header-list{
-  float:right;
+  float:left;
 }
 
 .header-list li{
@@ -72,7 +72,4 @@ height:90px;
   margin-top:30px;
 }
 
-.contact-form{
-  padding-top:100px;
-}
 
