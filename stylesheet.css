@@ -12,6 +12,6 @@ header{
 }
 
  
-.header-list{
-float:left
+.header-list ul{
+float:right
 }
