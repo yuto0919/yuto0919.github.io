@@ -7,11 +7,11 @@ header{
   font-size:40px;
   font-weight: bold;
 }
-.header-logo p{
+.header-con {
   font-size: 23px;
 }
 
  
 .header-list{
-float:right
+float:left
 }
