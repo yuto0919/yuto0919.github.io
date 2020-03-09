@@ -71,6 +71,10 @@ span{
  color:red;
 }
 
+.student {
+  padding:100px 80px
+}
+
 .student-title{
    border-bottom:2px solid #dee7ec;
   font-size:28px;
