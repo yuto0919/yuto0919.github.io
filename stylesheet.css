@@ -74,11 +74,15 @@ span{
 }
 
 .invocation{
-  float:left;
-  margin-right:40px;
-  font-size:60px;
+padding {
+  100px 80px
+  }
+  
+.invocation-title{
+  font-size:50px;
   color:aqua;
-}
+  }
+
 
 
 .student {
