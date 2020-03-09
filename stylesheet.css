@@ -74,8 +74,9 @@ span{
 }
 
 .invocation{
-  padding:100px 80px;
-  font-size:52px;
+  float:left;
+  margin-right:40px;
+  font-size:60px;
   color:aqua;
 }
 
