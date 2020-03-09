@@ -54,12 +54,6 @@ height:90px;
   height:500px;
   margin-top:100px;
 }
-.contents h4{
-  float:left;
-  font-size:58px;
-  margin-right:40px;
-  text-align:center;
-}
 
 .section-title{
   border-bottom:2px solid #dee7ec;
@@ -73,9 +67,15 @@ height:90px;
   margin-right:40px;
 }
 
+
 span{
  color:red;
 }
+
+.invocation{
+  padding:100px 80px;
+}
+
 
 .student {
   padding:100px 80px
