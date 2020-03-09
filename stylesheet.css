@@ -54,6 +54,10 @@ height:90px;
   height:500px;
   margin-top:100px;
 }
+.contents h4{
+  float:left;
+  font-size:58px;
+}
 
 .section-title{
   border-bottom:2px solid #dee7ec;
