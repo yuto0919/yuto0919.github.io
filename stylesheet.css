@@ -96,7 +96,9 @@ img{
   width:400px;
 }
 .access{
-  padding:100px 80px
+  padding:100px 80px;
+    float:left;
+  margin-right:40px;
 }
 
 .access-title{
