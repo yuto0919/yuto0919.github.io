@@ -106,6 +106,8 @@ img{
   font-size:28px;
   padding-bottom:15px;
   margin-bottom:50px;
+  float:left;
+  margin-right:40px;
 }
 .footer{
   padding:50px 80px;
