@@ -96,6 +96,12 @@ img{
   width:400px;
 }
 
+.access-title{
+   border-bottom:2px solid #dee7ec;
+  font-size:28px;
+  padding-bottom:15px;
+  margin-bottom:50px;
+}
 .footer{
   padding:50px 80px;
 }
