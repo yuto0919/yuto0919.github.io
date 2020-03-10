@@ -95,6 +95,9 @@ img{
   height:400px;
   width:400px;
 }
+.access{
+  padding:100px 80px
+}
 
 .access-title{
    border-bottom:2px solid #dee7ec;
