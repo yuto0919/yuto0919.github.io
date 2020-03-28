@@ -1,29 +1,26 @@
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p,
-form, input, div {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
 }
 
 li {
-  list-style: none;
+  list-style: square;
+}
+p{
+  font-size:20px;
 }
 
 .header{
-background-color:#007700;
+background:linear-gradient(45deg,#007700,aqua);
 color:#fff;
-height:90px;
+height:300px;
+padding-top:80px;
 }
 
 .header-logo{
   float:left;
-  font-size:36px;
+  font-size:45px;
   padding:20px 40px;
+
 }
 
 .header-list{
@@ -31,43 +28,82 @@ height:90px;
 }
 
 .header-list li{
-  float:right;
-  padding:33px 20px;
+  padding:3px 0px;
 }
+
 
 .main{
-  padding:100px 80px;
+  padding:100px 80px 50px 80px;
 }
 
-.copy-container h1{
-  font-size:96px;
+.copy-title{
+  border:15px solid #007700;
+  border-radius:40px;
+  padding:30px;
 }
-.copy-container h2{
-  font-size:40px;
+
+.copy-title h1{
+  text-align: center;
+  font-size: 75px;
+  color:#000022;
+  margin:0px;
+}
+
+.copy-title h2{
+  text-align: center;
+  font-size:45px;
+  color:#000022;
+  margin:0px;
+}
+
+.catch {
+  font-size:43px;
   color:#007700;
+  text-align: center;
+  font-weight:bold;
+  margin:0px;
+  padding:30px;
 }
 
-.copy-container h3{
-  font-size:40px;
+.copy{
+  font-size:20px;
+  text-align: center;
+  color:#000022;
 }
 
-.contents{
-  height:700px;
-  margin-top:100px;
+.contents {
+  padding:0px 80px 100px 80px;
 }
 
 .section-title{
-  border-bottom:2px solid #dee7ec;
+  border-bottom:5px solid #007700;
   font-size:28px;
   padding-bottom:15px;
-  margin-bottom:50px;
+  margin-bottom:10px;
 }
 
 .contents-item{
-  float:left;
-  margin-right:40px;
+    margin-right:40px;
+    display:grid;
+    gap:10px;
+    grid-template-columns: repeat(5,19%);
 }
 
+  @media (max-width: 700px){
+     .contents-item{
+       margin-right:40px;
+       display:grid;
+       gap:10px;
+       grid-template-columns: repeat(2,48%);
+    }
+}
+
+.contents-item img {
+  /* width:98.5px;
+  height:38.5px; */
+  width:100%;
+  height:auto;
+}
 
 span{
  color:red;
@@ -76,11 +112,11 @@ span{
 
 
 .student {
-  padding:100px 80px
+  padding:0px 80px 100px 80px;
 }
 
 .student-title{
-   border-bottom:2px solid #dee7ec;
+   border-bottom:5px solid #007700;
   font-size:28px;
   padding-bottom:15px;
   margin-bottom:50px;
@@ -91,30 +127,35 @@ span{
   margin-right:40px;
 }
 
-img{
-  height:400px;
-  width:400px;
-}
-.access{
-  padding:100px 80px;
-    float:left;
-  margin-right:40px;
+.stim{
+  display:inline;
+  text-align: center;
+  width:49%;
+  padding:7px;
 }
 
-.access-title{
-   border-bottom:2px solid #dee7ec;
-  font-size:28px;
-  padding-bottom:15px;
-  margin-bottom:50px;
-  float:left;
-  margin-right:40px;
+.stim img{
+  width:80%;
 }
+
+
+.wrapper{
+  display:flex;
+}
+
+
+
 .footer{
-  padding:50px 80px;
+  padding:100px 80px;
+}
+
+.haruka-img img{
+  width:45%;
+  height:auto;
 }
 
 .footer-logo{
-  border-bottom:2px solid #dee7ec;
+  border-bottom:5px solid #007700;
   font-size:28px;
   padding-bottom:15px;
   margin-bottom:50px;
@@ -122,4 +163,16 @@ img{
 .footer-explain{
   float:left;
   margin-right:40px;
+  font-size:32px ;
 }
+
+.access{
+  padding:100px 80px ;
+}
+
+.access-logo{
+  border-bottom:5px solid #007700;
+  font-size:28px;
+  padding-bottom:15px;
+  margin-bottom:50px;
+  !--dee7ec
