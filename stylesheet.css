@@ -1,0 +1,176 @@
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: square;
+}
+p{
+  font-size:20px;
+}
+
+.header{
+background:linear-gradient(45deg,#007700,aqua);
+color:#fff;
+height:300px;
+padding-top:80px;
+}
+
+.header-logo{
+  float:left;
+  font-size:45px;
+  padding:20px 40px;
+
+}
+
+.header-list{
+  float:left;
+}
+
+.header-list li{
+  padding:3px 0px;
+}
+
+
+.main{
+  padding:100px 80px 50px 80px;
+}
+
+.copy-title{
+  border:15px solid #007700;
+  border-radius:40px;
+  padding:30px;
+}
+
+.copy-title h1{
+  text-align: center;
+  font-size: 75px;
+  color:#000022;
+  margin:0px;
+}
+
+.copy-title h2{
+  text-align: center;
+  font-size:45px;
+  color:#000022;
+  margin:0px;
+}
+
+.catch {
+  font-size:43px;
+  color:#007700;
+  text-align: center;
+  font-weight:bold;
+  margin:0px;
+  padding:30px;
+}
+
+.copy{
+  font-size:20px;
+  text-align: center;
+  color:#000022;
+}
+
+.contents {
+  padding:0px 80px 100px 80px;
+}
+
+.section-title{
+  border-bottom:5px solid #007700;
+  font-size:28px;
+  padding-bottom:15px;
+  margin-bottom:10px;
+}
+
+.contents-item{
+    margin-right:40px;
+    display:grid;
+    gap:10px;
+    grid-template-columns: repeat(5,19%);
+}
+
+  @media (max-width: 700px){
+     .contents-item{
+       margin-right:40px;
+       display:grid;
+       gap:10px;
+       grid-template-columns: repeat(2,48%);
+    }
+}
+
+.contents-item img {
+  /* width:98.5px;
+  height:38.5px; */
+  width:100%;
+  height:auto;
+}
+
+span{
+ color:red;
+}
+
+
+
+.student {
+  padding:0px 80px 100px 80px;
+}
+
+.student-title{
+   border-bottom:5px solid #007700;
+  font-size:28px;
+  padding-bottom:15px;
+  margin-bottom:50px;
+}
+
+.student item p{
+  float:left;
+  margin-right:40px;
+}
+
+.stim{
+  display:inline;
+  text-align: center;
+  width:49%;
+  padding:7px;
+}
+
+.stim img{
+  width:70%;
+}
+
+
+
+
+
+
+.footer{
+  padding:100px 80px;
+}
+
+.haruka-img img{
+  width:45%;
+  height:auto;
+}
+
+.footer-logo{
+  border-bottom:5px solid #007700;
+  font-size:28px;
+  padding-bottom:15px;
+  margin-bottom:50px;
+}
+.footer-explain{
+  float:left;
+  margin-right:40px;
+  font-size:32px ;
+}
+
+.access{
+  padding:100px 80px ;
+}
+
+.access-logo{
+  border-bottom:5px solid #007700;
+  font-size:28px;
+  padding-bottom:15px;
+  margin-bottom:50px;
+  !--dee7ec
