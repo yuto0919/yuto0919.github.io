@@ -1,9 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta   charset="utf-8">
     <title>Harukaph kenkou</title>
     <link rel="stylesheet" href="stylesheet.css">
+
+    <style type="text/css">
+    #photo {
+        width: 800px;
+        height: 500px;
+        margin: 0 auto;
+        text-align: center;
+        overflow: visible;
+        position: relative;
+    }
+
+    #photo img {
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    </style>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        var setImg = '#photo';
+        var fadeSpeed = 2000;
+        var switchDelay = 5000;
+
+        $(setImg).children('img').css({opacity:'0'});
+        $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+        setInterval(function(){
+            $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+        },switchDelay);
+    });
+    </script>
   </head>
 
   <body>
@@ -38,7 +72,7 @@
       <p>Hba1cのみ<span>有料</span>となります。カーソルを合わせると詳しい説明が出てきます。(スマートフォン未対応)</P>
               <div class="contents-item">
                   <img src="bloodpressure.png" alt="１" title="血圧計にて血圧を測ります">
-                  <img src="bone_density.png"　alt="2" title="骨の密度を測ります">
+                  <img src="bone_density.png"　 alt="2" title="骨の密度を測ります">
                   <img src="grip.png"          alt="3" title="握る力を測ります。　転倒を防ぐために大切な項目です。">
                   <img src="body.png"          alt="4" title="体の脂肪　筋肉量の左右バランスを測ります。">
                   <img src="blood.png"         alt="5" title="毛細血管を見ることで体調や疲れを知ることができます。">
@@ -46,7 +80,7 @@
                   <img src="ox.png"            alt="7" title="血液内の酸素の比率を測ります。">
                   <img src="locomo.png"        alt="8" title="椅子や地面から立ち上がる脚力を測ります。">
                   <img src="salt.png"          alt="9" title="普段飲んでいる味噌汁の塩分濃度がどれくらいなのかを調べます。">
-                  <img src="Hb1ac.png"         alt="10" title="血液内の糖の量を測ります。こちらの項目のみ、有料です。">
+                  <img src="HbA1c.png"         alt="10" title="血液内の糖の量を測ります。こちらの項目のみ、有料です。">
               </div>
       </div>
 
@@ -56,9 +90,17 @@
                   <br>どの学年でも大丈夫です！！是非参加したいという方は電話(052-839-1226)にて連絡待ってます！
                   <br>以下はこれまでのイベントの学生さん達です!
               </p>
-          <div class="wrapper">
-              <div class="stim"> <img src="image1.jpeg"></div>
-              <div class="stim"> <img src="image2.jpg"></div>
+          <div id="photo">
+               <img src="st1.jpg" width="800" height="500" alt="">
+               <img src="st2.jpg" width="800" height="500" alt="">
+               <img src="st3.jpg" width="800" height="500" alt="">
+               <img src="st4.jpg" width="800" height="500" alt="">
+               <img src="st5.jpg" width="800" height="500" alt="">
+               <img src="st6.jpg" width="800" height="500" alt="">
+               <img src="st7.jpg" width="800" height="500" alt="">
+               <img src="st8.jpg" width="800" height="500" alt="">
+               <img src="st9.jpg" width="800" height="500" alt="">
+               <img src="st10.jpg" width="800" height="500" alt="">
           </div>
  　　 </div>
 
@@ -71,14 +113,14 @@
           <br>お気軽に健康相談にもお越しください！
         </p>
 　       <div class="haruka-img">
-          <img src="haruka1.jpg">
+          　<img src="haruka1.jpg">
             <img src="haruka2.jpg">
         </div>
    </div>
 
     <div class="access">
           <div class="access-logo">アクセス</div>
-              <p>地下鉄　名城線　八事日赤駅から徒歩10分です！</p>
+              <p>地下鉄　名城線　八事日赤駅1番出口から徒歩10分です！</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2743.374031844234!2d136.96334052403947!3d35.145647930929314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60037abf0f7b6cbd%3A0xea487c57055efb4!2z44Gv44KL44GL6Jas5bGA5bGx6YeM!5e0!3m2!1sja!2sjp!4v1585317406884!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
 
